@@ -45,6 +45,19 @@ This script ensures a sequence (list or array) contains no duplicate elements by
 * Removes any duplicate elements from the sequence.
 * Maintains the order of unique elements (optional: specify if applicable).
 
+## Highest and Lowest 
+### Description
+
+The high_and_low function takes a string of numbers separated by spaces and returns the highest and lowest numbers in the sequence.
+
+### Features 
+
+* Input: Accepts a string of numbers separated by spaces.
+* Output: Returns a string containing the highest and lowest numbers separated by a space.
+* Error Handling: Assumes valid input format (numbers separated by spaces).
+* Efficiency: Utilizes Python's built-in min() and max() functions for optimal performance.
+* String Formatting: Uses Python's f-string for clear and concise output formatting.
+
   
 
 
