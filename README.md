@@ -30,8 +30,7 @@ This project automates playing the Paino Tiles game by detecting black pixels at
 ### Features
 
 * Allows user to define click coordinates.
-* Analyzes the screen for black pixels at those coordinates.
-* (Optional) Integrates with an automation tool to perform clicks based on detection (mention the tool if applicable).
+* Analyses the screen for black pixels at those coordinates.
 
 ## No Duplicates Script
 
