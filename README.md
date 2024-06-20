@@ -57,6 +57,32 @@ The high_and_low function takes a string of numbers separated by spaces and retu
 * Efficiency: Utilizes Python's built-in min() and max() functions for optimal performance.
 * String Formatting: Uses Python's f-string for clear and concise output formatting.
 
+## Hashtag Generator
+
+### Description
+* Generate a hashtag from a given string.
+
+### Features
+
+* Takes out spaces 
+* Capitalises the first letter 
+* Does not allow empty input
+
+## Index Position
+### Description 
+* Converts the input text to a string.
+
+
+### Features
+
+* Iterates over each character in the string.
+* Checks if the character is an alphabetic letter.
+* Converts each alphabetic letter to its corresponding position in the alphabet:
+* Converts the letter to lowercase.
+* Computes the position using the ASCII value.
+* Adds the position to a list.
+* Returns the list of alphabetic positions.
+
   
 
 
