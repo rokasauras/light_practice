@@ -57,7 +57,7 @@
 
   <ul>
     <li>Allows the user to define click coordinates.</li>
-    <li>Analyzes the screen for black pixels at those coordinates.</li>
+    <li>Analyses the screen for black pixels at those coordinates.</li>
   </ul>
 
   <hr>
@@ -90,7 +90,7 @@
     <li>Input: Accepts a string of numbers separated by spaces.</li>
     <li>Output: Returns a string containing the highest and lowest numbers separated by a space.</li>
     <li>Error Handling: Assumes valid input format (numbers separated by spaces).</li>
-    <li>Efficiency: Utilizes Python's built-in <code>min()</code> and <code>max()</code> functions for optimal performance.</li>
+    <li>Efficiency: Utilises Python's built-in <code>min()</code> and <code>max()</code> functions for optimal performance.</li>
     <li>String Formatting: Uses Python's f-string for clear and concise output formatting.</li>
   </ul>
 
@@ -106,7 +106,7 @@
 
   <ul>
     <li>Removes spaces from the input string.</li>
-    <li>Capitalizes the first letter of each word.</li>
+    <li>Capitalises the first letter of each word.</li>
     <li>Ensures non-empty input for hashtag generation.</li>
   </ul>
 
