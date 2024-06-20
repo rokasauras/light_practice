@@ -1,89 +1,132 @@
-This repository contains multiple Python functions designed to solve distinct problems, listed below:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-## Converting a binary array to a decimal number:
-### Description
+  <h1>Python Utility Functions</h1>
 
-This project implements a function that converts a binary array (series of 0s and 1s) to its corresponding decimal (base-10) value.
+  <p>This repository contains multiple Python functions designed to solve distinct problems, listed below:</p>
 
-### Features
+  <hr>
 
-* Handles binary arrays of any length.
-* Efficiently calculates the decimal value using bitwise operations (optional: add this line if applicable).
-*Efficiently calculates the decimal value using bitwise operations 
-## Finding the complementary DNA strand, C and G, and T and A; automatically 
+  <h2>Converting a Binary Array to a Decimal Number</h2>
 
-### Description
+  <h3>Description</h3>
 
-This project automates finding the complementary DNA strand based on the principle that Adenine (A) pairs with Thymine (T), and Cytosine (C) pairs with Guanine (G).
+  <p>This function converts a binary array (series of 0s and 1s) to its corresponding decimal (base-10) value.</p>
 
-### Features
+  <h3>Features</h3>
 
-* Takes a DNA strand (string) as input.
-* Outputs the complementary DNA strand.
-* Handles both uppercase and lowercase letters (optional: specify if applicable).
-## Paino Tiles Game Bot
+  <ul>
+    <li>Handles binary arrays of any length.</li>
+    <li>Efficiently calculates the decimal value using bitwise operations.</li>
+  </ul>
 
-### Description
+  <hr>
 
-This project automates playing the Paino Tiles game by detecting black pixels at user-specified click locations.
+  <h2>Finding the Complementary DNA Strand</h2>
 
-### Features
+  <h3>Description</h3>
 
-* Allows user to define click coordinates.
-* Analyses the screen for black pixels at those coordinates.
+  <p>Automates finding the complementary DNA strand based on base pairing rules:</p>
+  <ul>
+    <li>A pairs with T</li>
+    <li>C pairs with G</li>
+  </ul>
 
-## No Duplicates Script
+  <h3>Features</h3>
 
-### Description
+  <ul>
+    <li>Takes a DNA strand (string) as input.</li>
+    <li>Outputs the complementary DNA strand.</li>
+    <li>Handles both uppercase and lowercase letters.</li>
+  </ul>
 
-This script ensures a sequence (list or array) contains no duplicate elements by comparing each element to the previous ones.
+  <hr>
 
-### Features
+  <h2>Paino Tiles Game Bot</h2>
 
-* Takes a sequence of elements as input.
-* Removes any duplicate elements from the sequence.
-* Maintains the order of unique elements (optional: specify if applicable).
+  <h3>Description</h3>
 
-## Highest and Lowest 
-### Description
+  <p>Automates playing the Paino Tiles game by detecting black pixels at user-specified click locations.</p>
 
-The high_and_low function takes a string of numbers separated by spaces and returns the highest and lowest numbers in the sequence.
+  <h3>Features</h3>
 
-### Features 
+  <ul>
+    <li>Allows the user to define click coordinates.</li>
+    <li>Analyzes the screen for black pixels at those coordinates.</li>
+  </ul>
 
-* Input: Accepts a string of numbers separated by spaces.
-* Output: Returns a string containing the highest and lowest numbers separated by a space.
-* Error Handling: Assumes valid input format (numbers separated by spaces).
-* Efficiency: Utilizes Python's built-in min() and max() functions for optimal performance.
-* String Formatting: Uses Python's f-string for clear and concise output formatting.
+  <hr>
 
-## Hashtag Generator
+  <h2>No Duplicates Script</h2>
 
-### Description
-* Generate a hashtag from a given string.
+  <h3>Description</h3>
 
-### Features
+  <p>Ensures a sequence (list or array) contains no duplicate elements by comparing each element to the previous ones.</p>
 
-* Takes out spaces 
-* Capitalises the first letter 
-* Does not allow empty input
+  <h3>Features</h3>
 
-## Index Position
-### Description 
-* Converts the input text to a string.
+  <ul>
+    <li>Takes a sequence of elements as input.</li>
+    <li>Removes any duplicate elements from the sequence.</li>
+    <li>Maintains the order of unique elements.</li>
+  </ul>
 
+  <hr>
 
-### Features
+  <h2>Highest and Lowest Numbers</h2>
 
-* Iterates over each character in the string.
-* Checks if the character is an alphabetic letter.
-* Converts each alphabetic letter to its corresponding position in the alphabet:
-* Converts the letter to lowercase.
-* Computes the position using the ASCII value.
-* Adds the position to a list.
-* Returns the list of alphabetic positions.
+  <h3>Description</h3>
 
-  
+  <p>The <code>high_and_low</code> function takes a string of numbers separated by spaces and returns the highest and lowest numbers in the sequence.</p>
 
+  <h3>Features</h3>
 
+  <ul>
+    <li>Input: Accepts a string of numbers separated by spaces.</li>
+    <li>Output: Returns a string containing the highest and lowest numbers separated by a space.</li>
+    <li>Error Handling: Assumes valid input format (numbers separated by spaces).</li>
+    <li>Efficiency: Utilizes Python's built-in <code>min()</code> and <code>max()</code> functions for optimal performance.</li>
+    <li>String Formatting: Uses Python's f-string for clear and concise output formatting.</li>
+  </ul>
 
+  <hr>
+
+  <h2>Hashtag Generator</h2>
+
+  <h3>Description</h3>
+
+  <p>Generates a hashtag from a given string.</p>
+
+  <h3>Features</h3>
+
+  <ul>
+    <li>Removes spaces from the input string.</li>
+    <li>Capitalizes the first letter of each word.</li>
+    <li>Ensures non-empty input for hashtag generation.</li>
+  </ul>
+
+  <hr>
+
+  <h2>Index Position</h2>
+
+  <h3>Description</h3>
+
+  <p>Converts each alphabetic letter in the input text to its corresponding position in the alphabet.</p>
+
+  <h3>Features</h3>
+
+  <ul>
+    <li>Iterates over each character in the string.</li>
+    <li>Checks if the character is an alphabetic letter.</li>
+    <li>Converts each alphabetic letter to lowercase.</li>
+    <li>Computes the position using the ASCII value.</li>
+    <li>Returns the list of alphabetic positions.</li>
+  </ul>
+
+</body>
+</html>
