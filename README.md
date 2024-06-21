@@ -131,19 +131,41 @@
   <hr>
   
   <h2>Space Identifier</h2>
-  
+    
   <h3>Description</h3>
-  
+    
   <p>The <code>solution</code> function in Python converts a camelCase formatted string into a spaced format where each uppercase letter (except the first) is preceded by a space.</p>
-  
+    
   <h2>Usage</h2>
   <p>Call <code>solution(s)</code> where <code>s</code> is the camelCase string you want to convert. It returns the converted string.</p>
-  
+    
   <h2>Example</h2>
   <pre><code>
   print(solution("camelCasing"))  # Output: "camel Casing"
   </code></pre>
-  
+    
   <p>This function is useful for formatting camelCase strings into a more readable format, often used in display or user interface contexts where separation between words is needed.</p>
+  
+  <hr>
+  
+  <h2>The perfect square</h2>
+    
+  <h3>Description</h3>
+    
+  <p>The <code>find_next_square</code> function calculates and returns the next perfect square greater than a given number <code>sq</code> or returns <code>-1</code> if <code>sq</code> is not a perfect square.</p>
+    
+  <h2>Features</h2>
+  <ul>
+    <li>Identifies the next perfect square greater than a given number.</li>
+    <li>Returns <code>-1</code> if the input number is not a perfect square.</li>
+  </ul>
+        
+  <p>Example usage:</p>
+  <pre><code>
+  print(find_next_square(1234))  # Output: 1296 (36^2)
+  </code></pre>
+    
+  <p>This function is handy for scenarios where determining the next perfect square number is required, such as in mathematical computations or algorithms.</p>
+
 </body>
 </html>
