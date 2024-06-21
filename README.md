@@ -12,7 +12,7 @@
 
   <hr>
 
-  <h2>Converting a Binary Array to a Decimal Number</h2>
+  <h2>Converting a Binary Array to a Decimal Number - binary_array_decoder</h2>
 
   <h3>Description</h3>
 
