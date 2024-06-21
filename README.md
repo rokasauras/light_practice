@@ -128,5 +128,22 @@
     <li>Returns the list of alphabetic positions.</li>
   </ul>
 
+  <hr>
+  
+  <h2>Space Identifier</h2>
+  
+  <h3>Description</h3>
+  
+  <p>The <code>solution</code> function in Python converts a camelCase formatted string into a spaced format where each uppercase letter (except the first) is preceded by a space.</p>
+  
+  <h2>Usage</h2>
+  <p>Call <code>solution(s)</code> where <code>s</code> is the camelCase string you want to convert. It returns the converted string.</p>
+  
+  <h2>Example</h2>
+  <pre><code>
+  print(solution("camelCasing"))  # Output: "camel Casing"
+  </code></pre>
+  
+  <p>This function is useful for formatting camelCase strings into a more readable format, often used in display or user interface contexts where separation between words is needed.</p>
 </body>
 </html>
