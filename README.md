@@ -166,6 +166,22 @@
   </code></pre>
     
   <p>This function is handy for scenarios where determining the next perfect square number is required, such as in mathematical computations or algorithms.</p>
+  
+  <hr>
 
+  <h2>Tail Swap</h2>
+
+  <h3>Description</h3>
+
+  <p>This is a Python function that swaps the parts of two input strings after the colon (<code>:</code>). The function takes a list of two strings as input and returns a list of two strings with the parts after the colon swapped.</p>
+
+  <h2>Features</h2>
+  <ul>
+    <li>Efficiently swaps the parts after the colon in two strings.</li>
+    <li>Utilizes list comprehensions for concise and readable code.</li>
+    <li>Demonstrates the use of list indexing and string manipulation in Python.</li>
+  </ul>
+  <h2>Example</h2>
+  <p>Given the input <code>["abc:123", "cde:456"]</code>, the function will return <code>["abc:456", "cde:123"]</code>.</p>
 </body>
 </html>
