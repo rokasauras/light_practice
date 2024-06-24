@@ -154,7 +154,7 @@
     
   <p>The <code>find_next_square</code> function calculates and returns the next perfect square greater than a given number <code>sq</code> or returns <code>-1</code> if <code>sq</code> is not a perfect square.</p>
     
-  <h2>Features</h2>
+  <h3>Features</h3>
   <ul>
     <li>Identifies the next perfect square greater than a given number.</li>
     <li>Returns <code>-1</code> if the input number is not a perfect square.</li>
@@ -175,7 +175,7 @@
 
   <p>This is a Python function that swaps the parts of two input strings after the colon (<code>:</code>). The function takes a list of two strings as input and returns a list of two strings with the parts after the colon swapped.</p>
 
-  <h2>Features</h2>
+  <h3>Features</h3>
   <ul>
     <li>Efficiently swaps the parts after the colon in two strings.</li>
     <li>Utilizes list comprehensions for concise and readable code.</li>
@@ -183,5 +183,55 @@
   </ul>
   <h2>Example</h2>
   <p>Given the input <code>["abc:123", "cde:456"]</code>, the function will return <code>["abc:456", "cde:123"]</code>.</p>
+
+  <hr>
+
+  <h2>RGB to HEX Color Converter</h2>
+
+  <h3>Description</h3>
+
+  <p>This project provides a simple Python function to convert RGB color values to their hexadecimal (HEX) representation. The function ensures the RGB values are within the valid range (0-255) and accurately converts them to a two-digit hexadecimal format for each color component.</p>
+
+  <h3>Features</h3>
+<ul>
+    <li>Converts individual RGB values to a two-digit hexadecimal string.</li>
+    <li>Ensures RGB values are clamped within the 0-255 range.</li>
+    <li>Combines the hexadecimal values of Red, Green, and Blue components into a single HEX color code.</li>
+    <li>Easy to integrate and use in other Python projects.</li>
+</ul>
+
+<h3>Example Usage</h3>
+
+    <p>Below are examples demonstrating the usage of the RGB to HEX color converter function:</p>
+
+    <h3>Example 1: Convert RGB (255, 255, 255) to HEX</h3>
+    <pre><code>    
+def rgb(r, g, b):
+    def to_hex(value):
+        # Ensure the value is within the range 0-255
+        value = max(0, min(value, 255))
+        # Convert the integer part to a hexadecimal string
+        digit1 = value // 16
+        # Convert the remainder to a hexadecimal string
+        digit2 = value % 16
+        # Convert both to hexadecimal characters and combine them
+        return f'{digit1:X}{digit2:X}'
+
+    # Combine all three parts
+    return to_hex(r) + to_hex(g) + to_hex(b)
+
+# Example 1
+hex_value = rgb(255, 255, 255)
+console.log(`RGB (255, 255, 255) converts to HEX: ${hex_value}`);  // Output: FFFFFF
+    </code></pre>
+
+    <h3>Example 2: Convert RGB (0, 128, 192) to HEX</h3>
+    <pre><code>    
+// Example 2
+hex_value = rgb(0, 128, 192)
+console.log(`RGB (0, 128, 192) converts to HEX: ${hex_value}`);    // Output: 0080C0
+    </code></pre>
+  
+
 </body>
 </html>
