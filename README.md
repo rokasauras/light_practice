@@ -232,6 +232,7 @@ hex_value = rgb(0, 128, 192)
 console.log(`RGB (0, 128, 192) converts to HEX: ${hex_value}`);    // Output: 0080C0
     </code></pre>
   
+  
 
 </body>
 </html>
