@@ -231,7 +231,64 @@ console.log(`RGB (255, 255, 255) converts to HEX: ${hex_value}`);  // Output: FF
 hex_value = rgb(0, 128, 192)
 console.log(`RGB (0, 128, 192) converts to HEX: ${hex_value}`);    // Output: 0080C0
     </code></pre>
-  
+
+<h1>Alphanumeric Checker</h1>
+
+<p>This Python script defines a function to check if a given password is both a string and alphanumeric (i.e., contains only letters and digits). The script also includes test cases to demonstrate how the function works.</p>
+
+<h2>Function Definition</h2>
+
+<h3><code>alphanumeric(password)</code></h3>
+
+<h4>Parameters</h4>
+<ul>
+    <li><code>password</code> (str): The input string to be checked.</li>
+</ul>
+
+<h4>Returns</h4>
+<ul>
+    <li><code>bool</code>: <code>True</code> if the input is a string and contains only alphanumeric characters, <code>False</code> otherwise.</li>
+</ul>
+
+<h3>How It Works</h3>
+<ol>
+    <li><strong>Type Check</strong>: The function first checks if the input is an instance of the string class (<code>str</code>).</li>
+    <li><strong>Alphanumeric Check</strong>: It then checks if the string contains only alphanumeric characters using the <code>isalnum()</code> method.</li>
+    <li><strong>Return Value</strong>: The function returns <code>True</code> if both conditions are met, otherwise it returns <code>False</code>.</li>
+</ol>
+
+<h3>Example Usage</h3>
+
+<pre><code>def alphanumeric(password):
+    # Check if the 'password' is an instance of the 'str' class and if it is alphanumeric
+    if isinstance(password, str) and password.isalnum():
+        # If both conditions are true, return True
+        return True
+    # If either condition is false, return False
+    return False
+
+# Test the function
+print(alphanumeric("something123"))  # Should return True (all characters are alphanumeric)
+print(alphanumeric("something!"))    # Should return False (contains a non-alphanumeric character '!')
+print(alphanumeric(12345))           # Should return False (input is not a string)
+</code></pre>
+
+<h3>Running the Script</h3>
+
+<ol>
+    <li>Ensure you have Python installed on your system.</li>
+    <li>Copy the function definition and the test cases into a Python script file (e.g., <code>alphanumeric_checker.py</code>).</li>
+    <li>Run the script using a Python interpreter:
+        <pre><code>python alphanumeric_checker.py</code></pre>
+    </li>
+</ol>
+
+<h3>Additional Notes</h3>
+
+<ul>
+    <li>The <code>isalnum()</code> method checks if all characters in the string are either alphabetic (letters) or numeric (digits). It returns <code>False</code> if the string contains any non-alphanumeric characters (such as spaces, punctuation, or symbols) or if the string is empty.</li>
+    <li>This function is useful for validating inputs like usernames, passwords, or any other field that requires only letters and digits.</li>
+</ul>
   
 
 </body>
