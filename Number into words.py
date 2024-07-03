@@ -1,6 +1,6 @@
 def parse_int(string):
     zero_nineteen = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
-    twenty_ninety = ["", "", "twenty", "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninty"]
+    twenty_ninety = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
     
     word_to_number = {word: idx for idx, word in enumerate(zero_nineteen)}
     word_to_number.update({word: idx * 10 for idx, word in enumerate(twenty_ninety) if word})
@@ -8,7 +8,7 @@ def parse_int(string):
     word_to_number["thousand"] = 1000
     word_to_number["million"] = 1000000
 
-    number_words = string.split()
+    number_words = string.replace("-", " ").split()
 
     total = 0
     current = 0
@@ -28,15 +28,6 @@ def parse_int(string):
 
 
 
-    
-    
 
-print(parse_int(""))
+print(parse_int("Ninety-nine thousand nine hundred ninety-nine"))
 
-
-
-
-'''
-If "one" = 1 
-Need to make a list with that index, and take the index number so , list = [one, two, ..., nine, ten] list(one) + 1 = value
-'''
