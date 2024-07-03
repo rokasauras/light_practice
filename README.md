@@ -136,10 +136,10 @@
     
   <p>The <code>solution</code> function in Python converts a camelCase formatted string into a spaced format where each uppercase letter (except the first) is preceded by a space.</p>
     
-  <h2>Usage</h2>
+  <h3>Usage</h3>
   <p>Call <code>solution(s)</code> where <code>s</code> is the camelCase string you want to convert. It returns the converted string.</p>
     
-  <h2>Example</h2>
+  <h3>Example</h3>
   <pre><code>
   print(solution("camelCasing"))  # Output: "camel Casing"
   </code></pre>
@@ -181,7 +181,7 @@
     <li>Utilises list comprehensions for concise and readable code.</li>
     <li>Demonstrates the use of list indexing and string manipulation in Python.</li>
   </ul>
-  <h2>Example</h2>
+  <h3>Example</h3>
   <p>Given the input <code>["abc:123", "cde:456"]</code>, the function will return <code>["abc:456", "cde:123"]</code>.</p>
 
   <hr>
@@ -220,23 +220,23 @@ def rgb(r, g, b):
     # Combine all three parts
     return to_hex(r) + to_hex(g) + to_hex(b)
 
-# Example 1
+<h3>Example 1</h3>
 hex_value = rgb(255, 255, 255)
 console.log(`RGB (255, 255, 255) converts to HEX: ${hex_value}`);  // Output: FFFFFF
     </code></pre>
 
     <h3>Example 2: Convert RGB (0, 128, 192) to HEX</h3>
     <pre><code>    
-// Example 2
+<h3>Example 2</h3>
 hex_value = rgb(0, 128, 192)
 console.log(`RGB (0, 128, 192) converts to HEX: ${hex_value}`);    // Output: 0080C0
     </code></pre>
-
-<h1>Alphanumeric Checker</h1>
+<hr>
+<h2>Alphanumeric Checker</h2>
 
 <p>This Python script defines a function to check if a given password is both a string and alphanumeric (i.e., contains only letters and digits). The script also includes test cases to demonstrate how the function works.</p>
 
-<h2>Function Definition</h2>
+<h3>Function Definition</h3>
 
 <h3><code>alphanumeric(password)</code></h3>
 
@@ -289,12 +289,14 @@ print(alphanumeric(12345))           # Should return False (input is not a strin
     <li>The <code>isalnum()</code> method checks if all characters in the string are either alphabetic (letters) or numeric (digits). It returns <code>False</code> if the string contains any non-alphanumeric characters (such as spaces, punctuation, or symbols) or if the string is empty.</li>
     <li>This function is useful for validating inputs like usernames, passwords, or any other field that requires only letters and digits.</li>
 </ul>
+
+  <hr>
   
-  <h1>parse_int Function</h1>
+  <h2>Number into words</h2>
   
   <p>The <code>parse_int</code> function is a Python function designed to convert a string representation of a number into its integer form. It supports parsing numbers from sero to nineteen, multiples of ten from twenty to ninety, and handles words like "hundred", "thousand", and "million" to compute the total numerical value of the input string.</p>
 
-  <h2>Usage</h2>
+  <h3>Usage</h3>
   
   <p>To use the <code>parse_int</code> function:</p>
   
@@ -305,13 +307,13 @@ print(alphanumeric(12345))           # Should return False (input is not a strin
     <li>The function will return the integer representation of the input string.</li>
   </ol>
 
-  <h2>Example</h2>
+  <h3>Example</h3>
   
   <p>Example usage:</p>
   
   <pre><code>print(parse_int("Ninety-nine million nine hundred ninety-nine"))  # Output: 99999999</code></pre>
 
-  <h2>Contributing</h2>
+  <h3>Contributing</h3>
   
   <p>Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to fork the repository, create a new branch, and submit a pull request.</p>
 </body>
