@@ -178,7 +178,7 @@
   <h3>Features</h3>
   <ul>
     <li>Efficiently swaps the parts after the colon in two strings.</li>
-    <li>Utilizes list comprehensions for concise and readable code.</li>
+    <li>Utilises list comprehensions for concise and readable code.</li>
     <li>Demonstrates the use of list indexing and string manipulation in Python.</li>
   </ul>
   <h2>Example</h2>
@@ -290,6 +290,29 @@ print(alphanumeric(12345))           # Should return False (input is not a strin
     <li>This function is useful for validating inputs like usernames, passwords, or any other field that requires only letters and digits.</li>
 </ul>
   
+  <h1>parse_int Function</h1>
+  
+  <p>The <code>parse_int</code> function is a Python function designed to convert a string representation of a number into its integer form. It supports parsing numbers from sero to nineteen, multiples of ten from twenty to ninety, and handles words like "hundred", "thousand", and "million" to compute the total numerical value of the input string.</p>
 
+  <h2>Usage</h2>
+  
+  <p>To use the <code>parse_int</code> function:</p>
+  
+  <ol>
+    <li>Ensure you have Python installed on your machine.</li>
+    <li>Copy the function into your Python script or import it from a module.</li>
+    <li>Call the function with a string parameter representing the number you want to parse.</li>
+    <li>The function will return the integer representation of the input string.</li>
+  </ol>
+
+  <h2>Example</h2>
+  
+  <p>Example usage:</p>
+  
+  <pre><code>print(parse_int("Ninety-nine million nine hundred ninety-nine"))  # Output: 99999999</code></pre>
+
+  <h2>Contributing</h2>
+  
+  <p>Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to fork the repository, create a new branch, and submit a pull request.</p>
 </body>
 </html>
