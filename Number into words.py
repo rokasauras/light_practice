@@ -8,13 +8,30 @@ def parse_int(string):
     word_to_number["thousand"] = 1000
     word_to_number["million"] = 1000000
 
-    number = string.split()
+    number_words = string.split()
+
+    total = 0
+    current = 0
+
+    for word in number_words:
+        if word in word_to_number:
+            value = word_to_number[word]
+            if value == 100:
+                current *= value
+            elif value >= 1000:
+                total += current * value
+                current = 0
+            else:
+                current += value
+    
+    return total + current
+
 
 
     
     
 
-print(parse_int("one hundred and one"))
+print(parse_int(""))
 
 
 
