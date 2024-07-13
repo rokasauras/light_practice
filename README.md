@@ -274,7 +274,3 @@ print(alphanumeric(12345))           # Should return False (input is not a strin
 <p>Example usage:</p>
 
 <pre><code>print(parse_int("Ninety-nine million nine hundred ninety-nine"))  # Output: 99999999</code></pre>
-
-<h3>Contributing</h3>
-
-<p>Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to fork the repository, create a new branch, and submit a pull request.</p>
