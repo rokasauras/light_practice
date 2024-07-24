@@ -289,3 +289,11 @@ print(alphanumeric(12345))           # Should return False (input is not a strin
         <li><code>0</code> if the game is a draw (i.e., no winner and no empty cells)</li>
     </ul>
 
+<h3>Example Usage</h3>
+    <pre><code># Example board configuration
+board = [
+    [1, 2, 2],
+    [2, 0, 1],
+    [1, 1, 2]
+]
+
