@@ -274,3 +274,18 @@ print(alphanumeric(12345))           # Should return False (input is not a strin
 <p>Example usage:</p>
 
 <pre><code>print(parse_int("Ninety-nine million nine hundred ninety-nine"))  # Output: 99999999</code></pre>
+
+<hr>
+
+  <h2>Tic-Tac-Toe Checker</h2>
+    <p>This repository contains a Python function to check the state of a Tic-Tac-Toe game board. The function determines if the game has been won by a player, is still ongoing, or has ended in a draw.</p>
+
+  <h3>Function Overview</h3>
+    <p>The <code>is_solved</code> function evaluates a 3x3 Tic-Tac-Toe board represented as a list of lists. It returns:</p>
+    <ul>
+        <li><code>1</code> if player 1 has won</li>
+        <li><code>2</code> if player 2 has won</li>
+        <li><code>-1</code> if the game is not finished (i.e., there are empty cells)</li>
+        <li><code>0</code> if the game is a draw (i.e., no winner and no empty cells)</li>
+    </ul>
+
